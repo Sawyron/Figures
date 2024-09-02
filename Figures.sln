@@ -7,9 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0312FDED-5C1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8FF87CDF-59FF-49B4-B3A1-4018756D01A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures.Domain", "src\Figures.Domain\Figures.Domain.csproj", "{7804394C-6A49-4D2D-92E5-C669F615A32F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Figures.Domain", "src\Figures.Domain\Figures.Domain.csproj", "{7804394C-6A49-4D2D-92E5-C669F615A32F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fugures.Domain.Test", "test\Fugures.Domain.Test\Fugures.Domain.Test.csproj", "{797F762A-268E-4338-81F2-678A17847A6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fugures.Domain.Test", "test\Fugures.Domain.Test\Fugures.Domain.Test.csproj", "{797F762A-268E-4338-81F2-678A17847A6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D744DF8-79C5-4E7F-A7BE-E4455BDF6BCE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		query.sql = query.sql
+		README.md = README.md
+		schema.sql = schema.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
